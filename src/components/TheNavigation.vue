@@ -28,9 +28,8 @@
       margin: 0 10px
     &__link
       text-decoration: none
-      font-size: 1.2rem
+      font-size: 1.4rem
       font-weight: bold
     .router-link-active
       text-decoration: underline
-    
 </style>

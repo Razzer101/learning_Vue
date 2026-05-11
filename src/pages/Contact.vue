@@ -14,4 +14,5 @@ import { ref } from 'vue';
     .title
         text-align: center
         font-size: 2rem
+        margin: 5px 0
 </style>

@@ -1,14 +1,14 @@
 <script setup>
-  import { RouterView } from 'vue-router';
+  import { RouterLink, RouterView } from 'vue-router';
   import TheNavigation from './components/TheNavigation.vue';
 </script>
 
 <template>
   <header class="header">
-    <div>
-      <img src="/vue.svg" alt="">
+    <RouterLink class="header__link" to="/">
+      <img class="header__logo" src="/vue.svg" alt="logo">
       <h1 class="header__title">Vue</h1>
-    </div>
+    </RouterLink>
     <TheNavigation/>
   </header>
   <main class="main">
@@ -22,6 +22,11 @@
     justify-content: space-between
     padding: 10px
     border-bottom: 2px solid white
+    &__link
+      display: flex
+      text-decoration: none
+    &__logo
+      margin-right: 7px
     &__title
       margin: 0
   
