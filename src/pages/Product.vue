@@ -5,6 +5,12 @@
 </script>
 
 <template>
-    <h1>Product</h1>
+    <h2 class="title">Product</h2>
     <p>This is product nr. {{ pageId }}</p>
 </template>
+
+<style scoped lang="sass">
+    .title
+        text-align: center
+        font-size: 2rem
+</style>

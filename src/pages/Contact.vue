@@ -4,8 +4,14 @@ import { ref } from 'vue';
 </script>
 
 <template>
-    <h1>Contact</h1>
+    <h2 class="title">Contact</h2>
     <section>
         <button @click=""></button>
     </section>
 </template>
+
+<style scoped lang="sass">
+    .title
+        text-align: center
+        font-size: 2rem
+</style>

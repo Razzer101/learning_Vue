@@ -1,3 +1,9 @@
 <template>
-    <h1>Home</h1>
+    <h2 class="title">Home</h2>
 </template>
+
+<style scoped lang="sass">
+    .title
+        text-align: center
+        font-size: 2rem
+</style>

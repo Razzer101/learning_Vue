@@ -6,17 +6,31 @@
 </script>
 
 <template>
-  <nav>
-    <ul>
-      <li v-for="page in pages" :key="page.id + `-` + page.name">
-        <RouterLink :to="page.url">{{ page.name }}</RouterLink>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-list__item" v-for="page in pages" :key="page.id + `-` + page.name">
+        <RouterLink class="nav-list__link" :to="page.url">{{ page.name }}</RouterLink>
       </li>
     </ul>
   </nav>
 </template>
 
-<style scoped>
-    .router-link-active{
-        color: white;
-    }
+<style scoped lang="sass">
+  .nav
+    display: flex
+    align-items: center
+
+  .nav-list
+    display: flex
+    margin: 0
+    padding: 0
+    &__item
+      margin: 0 10px
+    &__link
+      text-decoration: none
+      font-size: 1.2rem
+      font-weight: bold
+    .router-link-active
+      text-decoration: underline
+    
 </style>
