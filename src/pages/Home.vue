@@ -4,7 +4,8 @@
 
 <template>
     <h2 class="title">Home</h2>
-    <TheContentButton/>
+    <TheContentButton title="Content button 1"/>
+    <TheContentButton title="Content button 2"/>
 </template>
 
 <style scoped lang="sass">
