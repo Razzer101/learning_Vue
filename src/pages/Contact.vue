@@ -1,13 +1,11 @@
 <script setup>
-import { ref } from 'vue';
-    const btn = ref()
+    import TheContactForm from '../components/TheContactForm.vue';
+
 </script>
 
 <template>
     <h2 class="title">Contact</h2>
-    <section>
-        <button @click=""></button>
-    </section>
+    <TheContactForm/>
 </template>
 
 <style scoped lang="sass">

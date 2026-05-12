@@ -75,7 +75,7 @@
         &__img
             width: 30%
             border-radius: 5px
-            object-fit: cover
+            object-fit: contain
         &-info
             display: flex
             flex-direction: column
