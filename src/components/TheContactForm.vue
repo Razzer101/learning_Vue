@@ -37,7 +37,7 @@
             <label class="form-field-label" for="phone">
                 <span class="form-field-label__title">Phone:</span>
                 <input v-model="inputPhone" class="form-field-label__input" id="phone" type="tel">
-                <p v-if="inputPhone && inputPhone.length !== 8">(Name has to be more than one letter)</p>
+                <p v-if="inputPhone && inputPhone.length !== 8">(Phone number incorrect)</p>
             </label>
             <label class="form-field-label" for="options">
                 <select id="options" class="form-field-label-select">
